@@ -12,7 +12,7 @@ Követelmények ismertetése, szoftverek telepítése, ismerkedés az Angular ke
 Angular alkalmazások felépítése, sztring interpoláció és strukturális direktívák (`*ngIf`, `*ngFor`). Bootstrap alapok, grid rendszer.
 
 - [Adatok](https://github.com/aron123/infrend-2024/blob/master/_data/applicants.ts)
-- Projekt: HR nyilvántartó rendszer
+- Projekt: [HR nyilvántartó rendszer](https://github.com/aron123/infrend-2024/tree/master/hr-application)
 
 Dokumentációk, egyéb anyagok:
 - [Bootstrap](https://getbootstrap.com/docs)
