@@ -18,9 +18,19 @@ Dokumentációk, egyéb anyagok:
 - [Bootstrap](https://getbootstrap.com/docs)
 - [Emmet abbreviations](https://docs.emmet.io/abbreviations/syntax/) (+[Emmet in VSCode](https://code.visualstudio.com/docs/editor/emmet))
 
+## 3. hét
+Angular alkalmazás komponensekre bontása, komponensek közötti kommunikáció. Kódgenerálás (`ng generate`) és adatkötés eszközei (`@Input` és `@Output` dekorátorok, `EventEmitter` osztály).
+
+- [Feladatok több komponens használatára](component-interaction.md)
+- Projekt: Szemantikus verziószámozás
+
+Dokumentációk, egyéb anyagok:
+- [Angular Components Overview](https://angular.io/guide/component-overview)
+- [Sharing data between child and parent components](https://angular.io/guide/inputs-outputs)
+- [Semantic Versioning 2.0.0](https://semver.org/)
+
 ## Elérhetőség
 Kiss Áron, tanszéki mérnök<br>
 ME-GÉIK Informatikai Intézet
 
 E-mail: kiss.aron@uni-miskolc.hu
-
