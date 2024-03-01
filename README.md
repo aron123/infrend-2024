@@ -11,8 +11,8 @@ Követelmények ismertetése, szoftverek telepítése, ismerkedés az Angular ke
 ## 2. hét
 Angular alkalmazások felépítése, sztring interpoláció és strukturális direktívák (`*ngIf`, `*ngFor`). Bootstrap alapok, grid rendszer.
 
-- [Adatok](https://github.com/aron123/infrend-2024/blob/master/_data/applicants.ts)
-- Projekt: [HR nyilvántartó rendszer](https://github.com/aron123/infrend-2024/tree/master/hr-application)
+- [Adatok](https://github.com/aron123/infrend-2024/blob/main/_data/applicants.ts)
+- Projekt: [HR nyilvántartó rendszer](https://github.com/aron123/infrend-2024/tree/main/hr-application)
 
 Dokumentációk, egyéb anyagok:
 - [Bootstrap](https://getbootstrap.com/docs)
@@ -22,7 +22,7 @@ Dokumentációk, egyéb anyagok:
 Angular alkalmazás komponensekre bontása, komponensek közötti kommunikáció. Kódgenerálás (`ng generate`) és adatkötés eszközei (`@Input` és `@Output` dekorátorok, `EventEmitter` osztály).
 
 - [Feladatok több komponens használatára](component-interaction.md)
-- Projekt: Szemantikus verziószámozás
+- Projekt: [Szemantikus verziószámozás](https://github.com/aron123/infrend-2024/tree/main/semver)
 
 Dokumentációk, egyéb anyagok:
 - [Angular Components Overview](https://angular.io/guide/component-overview)

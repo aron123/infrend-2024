@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <app-version [version]="version"></app-version>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <app-control (versionChanged)="incrementVersion($event)"></app-control>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <app-changelog [changes]="changelog"></app-changelog>
+    </div>
+  </div>
+</div>
