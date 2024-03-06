@@ -38,7 +38,7 @@ Az Angular router használata, guard-ok. Dependency injection, service osztályo
     - [Görgetés](scrolling.md)
 
 Dokumentáció:
-- [Routing in SPAs](https://dev.to/marcomonsanto/routing-in-spas-173i)
+- [Routing in SPAs](https://web.archive.org/web/20220715185902/https://dev.to/marcomonsanto/routing-in-spas-173i)
 - [Common routing tasks in Angular](https://angular.io/guide/router)
 <!-- - [OpenAI API](https://platform.openai.com/) -->
 
