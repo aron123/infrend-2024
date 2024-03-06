@@ -1,6 +1,4 @@
-# Görgetés az oldal aljára
-
-Az oldalon belüli görgetés egy nem szép, de kétségkívül rövid módja.
+# Görgetés az üzenetek aljára
 
 ```ts
 scrollToBottom() {
