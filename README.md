@@ -30,7 +30,7 @@ Dokumentációk, egyéb anyagok:
 - [Semantic Versioning 2.0.0](https://semver.org/)
 
 ## 4-5. hét
-Az Angular router használata, guard-ok. HTTP kérések kezelése Angular-ban, service-k.
+Az Angular router használata, guard-ok. Dependency injection, service osztályok.
 
 - [Adatmodell](https://github.com/aron123/infrend-2024/blob/main/_data/chat-gpt.models.ts)
 <!-- - [HTTP](http.md) -->
