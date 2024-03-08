@@ -29,18 +29,27 @@ Dokumentációk, egyéb anyagok:
 - [Sharing data between child and parent components](https://angular.io/guide/inputs-outputs)
 - [Semantic Versioning 2.0.0](https://semver.org/)
 
-## 4-5. hét
+## 4. hét
 Az Angular router használata, guard-ok. Dependency injection, service osztályok.
 
 - [Adatmodell](https://github.com/aron123/infrend-2024/blob/main/_data/chat-gpt.models.ts)
-<!-- - [HTTP](http.md) -->
-- Projekt: AI Chat alkalmazás
-    - [Görgetés](scrolling.md)
+
+- Projekt: [AI Chat alkalmazás](https://github.com/aron123/infrend-2024/tree/main/ai-chat)
 
 Dokumentáció:
 - [Routing in SPAs](https://web.archive.org/web/20220715185902/https://dev.to/marcomonsanto/routing-in-spas-173i)
 - [Common routing tasks in Angular](https://angular.io/guide/router)
-<!-- - [OpenAI API](https://platform.openai.com/) -->
+
+## 5. hét
+HTTP kérések kezelése Angular-ban.
+
+- [HTTP protokoll](http.md)
+
+- Projekt: [AI Chat alkalmazás](https://github.com/aron123/infrend-2024/tree/main/ai-chat) folytatása
+    - [Görgetés script](scrolling.md)
+
+Dokumentáció:
+- [OpenAI Developer Platform](https://platform.openai.com/)
 
 ## Elérhetőség
 Kiss Áron, tanszéki mérnök<br>
