@@ -14,12 +14,15 @@ export class WelcomeComponent {
 
   username = '';
 
+  apiKey = '';
+
   storageService = inject(StorageService);
 
   router = inject(Router);
 
   saveUsername() {
     this.storageService.saveUsername(this.username);
+    this.storageService.setApiKey(this.apiKey);
     this.router.navigateByUrl('/');
   }
 }
