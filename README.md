@@ -51,6 +51,10 @@ HTTP kérések kezelése Angular-ban.
 Dokumentáció:
 - [OpenAI Developer Platform](https://platform.openai.com/)
 
+## 6. hét
+Szerveroldali technológiák alapjai. HTTP szerver készítése Express.js segítségével. Adatbáziskezelés TypeORM-el.
+
+
 ## Elérhetőség
 Kiss Áron, tanszéki mérnök<br>
 ME-GÉIK Informatikai Intézet
