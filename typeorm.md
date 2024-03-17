@@ -4,6 +4,9 @@ A TypeORM egy objektum-relációs leképező eszköz, aminek segítségével Typ
 
 Használatát egy példán keresztül érdemes megismerni.
 
+* Table of Contents
+{:toc}
+
 ## Globális függőségek telepítése
 
 A következő parancsot egyszer kell futtatni, ennek hatására rendszer szinten települnek a szükséges csomagok:
