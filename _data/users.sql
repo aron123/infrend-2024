@@ -24,11 +24,11 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Tábla szerkezet ehhez a táblához `users`
+-- Tábla szerkezet ehhez a táblához `user`
 --
 
-DROP TABLE IF EXISTS `users`;
-CREATE TABLE IF NOT EXISTS `users` (
+DROP TABLE IF EXISTS `user`;
+CREATE TABLE IF NOT EXISTS `user` (
   `id` int NOT NULL AUTO_INCREMENT,
   `customerId` varchar(255) COLLATE utf8mb4_hungarian_ci DEFAULT NULL,
   `name` varchar(255) COLLATE utf8mb4_hungarian_ci DEFAULT NULL,
@@ -39,10 +39,10 @@ CREATE TABLE IF NOT EXISTS `users` (
 ) ENGINE=MyISAM AUTO_INCREMENT=51 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
 
 --
--- A tábla adatainak kiíratása `users`
+-- A tábla adatainak kiíratása `user`
 --
 
-INSERT INTO `users` (`id`, `customerId`, `name`, `address`, `phone`, `idCard`) VALUES
+INSERT INTO `user` (`id`, `customerId`, `name`, `address`, `phone`, `idCard`) VALUES
 (1, '000001', 'Kovács János', '1012 Budapest, Kossuth Lajos utca 12. 1. em. 3.', '+36-20-123-4567', '123456AA'),
 (2, '000002', 'Nagy Péter', '4026 Debrecen, Péterfia utca 8.', '+36-30-234-5678', '234567BB'),
 (3, '000003', 'Kiss Anna', '6720 Szeged, Tisza Lajos körút 14.', '+36-70-345-6789', '345678CC'),
