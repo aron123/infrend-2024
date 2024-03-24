@@ -63,6 +63,16 @@ Dokumentációk:
 - [Express.js](https://expressjs.com/)
 - [TypeORM](https://typeorm.io/)
 
+## 7. hét
+A megismert technológiák gyakorlása, webalkalmazás fejlesztés.
+
+- [Adatbázis](https://raw.githubusercontent.com/aron123/infrend-2024/main/_data/users.sql)
+- [Feladatkiírás](https://edu.iit.uni-miskolc.hu/tanszek:oktatas:informatikai_rendszerek_epitese:feleves_feladat#banki_szamlavezetes)
+- Projekt: Banki számlavezetés
+
+Hasznos anyagok:
+- [Data Transfer Object tervezési minta](https://en.wikipedia.org/wiki/Data_transfer_object)
+- [Angular - Proxying to a backend server](https://angular.io/guide/build#proxying-to-a-backend-server)
 
 ## Elérhetőség
 Kiss Áron, tanszéki mérnök<br>
