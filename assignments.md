@@ -6,9 +6,9 @@ A feladatkiírások a [tanszék oktatási oldalán](https://edu.iit.uni-miskolc.
 
 A feladatkiosztás a következő:
 
-<details>
+<!--<details>
 <summary>Feladatkiosztás</summary>
-
+-->
 | Neptun | Feladat sorszám |
 | ------ | --------------- |
 | B8GU52 | 8 |
@@ -48,7 +48,7 @@ A feladatkiosztás a következő:
 | Z501CK | 7 |
 | ZUYISF | 12 |
 
-</details>
+<!--</details>-->
 
 ## Technológiai követelmények
 A feladat megoldásához a gyakorlatokon bemutatott technológiákat kell felhasználni.
