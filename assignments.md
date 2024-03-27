@@ -10,7 +10,7 @@ A feladatkiosztás a következő:
 <summary>Feladatkiosztás</summary>
 
 | Neptun | Feladat sorszám |
-| ------ | --------------: |
+| ------ | --------------- |
 | B8GU52 | 8 |
 | BB89VX | 11 |
 | C7H5VB | 13 |
