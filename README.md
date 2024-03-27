@@ -1,5 +1,7 @@
 # Informatikai rendszerek építése (2023/24. II. félév)
 
+- [**Beadandó információk**](assignments.md)
+
 - [Tanszéki weboldal](https://oktatas.iit.uni-miskolc.hu/doku.php?id=tanszek:oktatas:informatikai_rendszerek_epitese:informatikai_rendszerek_epitese)
 
 ## 1. hét
