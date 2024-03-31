@@ -65,12 +65,14 @@ Dokumentációk:
 - [Express.js](https://expressjs.com/)
 - [TypeORM](https://typeorm.io/)
 
-## 7. hét
+## 7-12. hét
 A megismert technológiák gyakorlása, webalkalmazás fejlesztés.
 
 - [Adatbázis](https://raw.githubusercontent.com/aron123/infrend-2024/main/_data/users.sql)
 - [Feladatkiírás](https://edu.iit.uni-miskolc.hu/tanszek:oktatas:informatikai_rendszerek_epitese:feleves_feladat#banki_szamlavezetes)
-- Projekt: Banki számlavezetés
+- Projekt:
+    - [Banki számlavezetés (szerda 18:00)](https://github.com/aron123/infrend-2024/tree/main/banking-app-sz18)
+
 
 Hasznos anyagok:
 - [Data Transfer Object tervezési minta](https://en.wikipedia.org/wiki/Data_transfer_object)
