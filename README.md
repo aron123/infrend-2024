@@ -72,7 +72,7 @@ A megismert technológiák gyakorlása, webalkalmazás fejlesztés.
 - [Feladatkiírás](https://edu.iit.uni-miskolc.hu/tanszek:oktatas:informatikai_rendszerek_epitese:feleves_feladat#banki_szamlavezetes)
 - Projekt:
     - [Banki számlavezetés (szerda 18:00)](https://github.com/aron123/infrend-2024/tree/main/banking-app-sz18)
-
+    - [Banki számlavezetés (csütörtök 08:00)](https://github.com/aron123/infrend-2024/tree/main/banking-app-cs8)
 
 Hasznos anyagok:
 - [Data Transfer Object tervezési minta](https://en.wikipedia.org/wiki/Data_transfer_object)
