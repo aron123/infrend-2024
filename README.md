@@ -74,6 +74,7 @@ A megismert technológiák gyakorlása, webalkalmazás fejlesztés.
     - [Banki számlavezetés (szerda 18:00)](https://github.com/aron123/infrend-2024/tree/main/banking-app-sz18)
     - [Banki számlavezetés (csütörtök 08:00)](https://github.com/aron123/infrend-2024/tree/main/banking-app-cs8)
 - [Kódrészletek](code-snippets.md)
+- 
 Hasznos anyagok:
 - [Data Transfer Object tervezési minta](https://en.wikipedia.org/wiki/Data_transfer_object)
 - [Angular - Proxying to a backend server](https://angular.io/guide/build#proxying-to-a-backend-server)
