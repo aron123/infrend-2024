@@ -2,26 +2,26 @@
 ```html
 <div class="row">
     <div class="col-md-6">
-        <form [formGroup]="userForm">
+        <form>
             <div class="mb-3">
                 <label for="customerId" class="form-label">Ügyfélkód</label>
-                <input type="text" class="form-control" id="customerId" formControlName="customerId">
+                <input type="text" class="form-control" id="customerId">
             </div>
             <div class="mb-3">
                 <label for="name" class="form-label">Név</label>
-                <input type="text" class="form-control" id="name" formControlName="name">
+                <input type="text" class="form-control" id="name">
             </div>
             <div class="mb-3">
                 <label for="address" class="form-label">Lakcím</label>
-                <input type="text" class="form-control" id="address" formControlName="address">
+                <input type="text" class="form-control" id="address">
             </div>
             <div class="mb-3">
                 <label for="phone" class="form-label">Telefonszám</label>
-                <input type="text" class="form-control" id="phone" formControlName="phone">
+                <input type="text" class="form-control" id="phone">
             </div>
             <div class="mb-3">
                 <label for="idCard" class="form-label">Személyi igazolvány szám</label>
-                <input type="text" class="form-control" id="idCard" formControlName="idCard">
+                <input type="text" class="form-control" id="idCard">
             </div>
         </form>
         <div class="text-end">
