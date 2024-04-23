@@ -1,68 +1,27 @@
-# Felhasználói űrlap
-```html
-<div class="row">
-    <div class="col-md-6">
-        <form>
-            <div class="mb-3">
-                <label for="customerId" class="form-label">Ügyfélkód</label>
-                <input type="text" class="form-control" id="customerId">
-            </div>
-            <div class="mb-3">
-                <label for="name" class="form-label">Név</label>
-                <input type="text" class="form-control" id="name">
-            </div>
-            <div class="mb-3">
-                <label for="address" class="form-label">Lakcím</label>
-                <input type="text" class="form-control" id="address">
-            </div>
-            <div class="mb-3">
-                <label for="phone" class="form-label">Telefonszám</label>
-                <input type="text" class="form-control" id="phone">
-            </div>
-            <div class="mb-3">
-                <label for="idCard" class="form-label">Személyi igazolvány szám</label>
-                <input type="text" class="form-control" id="idCard">
-            </div>
-        </form>
-        <div class="text-end">
-            <button class="btn btn-outline-primary" (click)="saveUser()">Mentés</button>
-        </div>
-    </div>
-</div>
-```
-
-# User service
+# TransactionService
 
 ```ts
 import { HttpClient } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
-import { UserDTO } from '../../../models';
+import { BankTransferDTO } from '../../../models';
 
 @Injectable({
   providedIn: 'root'
 })
-export class UserService {
+export class TransactionService {
 
   http = inject(HttpClient);
 
   getAll() {
-    return this.http.get<UserDTO[]>('/api/user');    
+    return this.http.get<BankTransferDTO[]>('/api/transactions');
   }
 
   getOne(id: number) {
-    return this.http.get<UserDTO>('/api/user/' + id);    
+    return this.http.get<BankTransferDTO>('/api/transactions/' + id);    
   }
 
-  create(user: UserDTO) {
-    return this.http.post<UserDTO>('/api/user', user);
-  }
-
-  update(user: UserDTO) {
-    return this.http.put<UserDTO>('/api/user', user);
-  }
-
-  delete(id: number) {
-    return this.http.delete('/api/user/' + id); 
+  create(transaction: BankTransferDTO) {
+    return this.http.post<BankTransferDTO>('/api/transactions', transaction);
   }
 }
 ```
