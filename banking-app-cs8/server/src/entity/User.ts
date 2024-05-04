@@ -1,7 +1,9 @@
-import { Entity, PrimaryGeneratedColumn, Column } from "typeorm"
+import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from "typeorm"
+import { UserDTO } from "../../../models";
+import { BankTransfer } from "./BankTransfer";
 
 @Entity()
-export class User {
+export class User implements UserDTO {
 
     @PrimaryGeneratedColumn()
     id: number;
@@ -20,4 +22,10 @@ export class User {
 
     @Column()
     idCard: string;
+
+    @OneToMany(() => BankTransfer, transaction => transaction.source)
+    outgoingTransactions: BankTransfer[];
+
+    @OneToMany(() => BankTransfer, transaction => transaction.destination)
+    incomingTransactions: BankTransfer[];
 }
